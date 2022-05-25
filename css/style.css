@@ -232,3 +232,22 @@
     color: #343434;
     font-family: 'OpenSans Light';
 }
+
+.catalog__subjects-list {
+    display: flex;
+    justify-content: center;
+    gap: 47px;
+}
+
+.catalog__subjects-list .active {
+    color: #005BC1;
+    border-bottom: 2px solid #005BC1;
+}
+
+.catalog__subjects-list-object {
+    font-size: 24px;
+    font-family: 'OpenSans Regular';
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+}
