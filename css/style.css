@@ -105,3 +105,130 @@
     letter-spacing: 0.05em;
     font-weight: 600;
 }
+
+.projects, .catalog, .rent {
+    margin-top: 150px;
+}
+
+.news {
+    margin-top: 108px;
+}
+
+.footer {
+    margin-top: 160px;
+}
+
+.projects__subjects, .catalog__subjects, .rent__subjects, .news__subjects, .footer__subjects {
+    max-width: 1110px;
+    margin: auto;
+}
+
+.projects__subjects-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects__subjects-title-text {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'OpenSans Regular';
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.projects__subjects-title-text::before {
+    content: '';
+    background-image: url(../img/decor.svg);
+    width: 100px;
+    height: 16px;
+    margin-right: 40px;
+}
+
+.projects__subjects-title-buttons {
+    display: flex;
+}
+
+.projects__subjects-title-buttons-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    border: 2px solid #005BC1;
+    cursor: pointer;
+}
+
+.projects__subjects-title-buttons-btn:nth-child(1) {
+    margin-right: -2px;
+}
+
+.projects__subjects-title-buttons-btn:nth-child(1)::before {
+    content: '';
+    background-image: url(../img/arrow.svg);
+    color: #005BC1;
+    width: 10px;
+    height: 17px;
+}
+
+.projects__subjects-title-buttons-btn:nth-child(2)::before {
+    content: '';
+    background-image: url(../img/arrow.svg);
+    color: #005BC1;
+    width: 10px;
+    height: 17px;
+    transform: rotate(-180deg);
+}
+
+.projects__subjects-slides {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 65px;
+}
+
+.projects__subjects-slides-slide {
+    background-color: rgba(0, 0, 0, 1);
+    flex: 45%;
+    position: relative;
+    transition: .5s;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.projects__subjects-slides-slide img {
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+    object-fit: cover;
+}
+
+.slide__bg {
+    height: 400px;
+}
+
+.slide__text {
+    position: absolute;
+    background-color: #fff;
+    padding: 20px 30px;
+    bottom: 35px;
+    right: 35px;
+}
+
+.slide__text-title {
+    font-size: 18px;
+    color: #343434;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    font-family: 'OpenSans Regular';
+}
+
+.slide__text-desc {
+    margin-top: 14px;
+    font-size: 14px;
+    color: #343434;
+    font-family: 'OpenSans Light';
+}
