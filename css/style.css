@@ -439,3 +439,62 @@
     font-size: 14px;
     color: #000;
 }
+
+.footer {
+    background-color: #005BC1;
+}
+
+.footer__subjects-object {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__subjects-object-text {
+    color: #fff;
+}
+
+.footer__subjects-object-text:nth-child(1) {
+    font-size: 18px;
+    font-family: 'OpenSans Regular';
+}
+
+.footer__subjects-object-text:nth-child(2) {
+    font-size: 14px;
+    font-family: 'OpenSans SemiBold';
+}
+
+.footer__subjects-object-text:nth-child(3) {
+    font-size: 14px;
+    font-family: 'OpenSans SemiBold';
+}
+
+.footer__subjects-object:nth-child(1) {
+    padding-top: 36px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 25px;
+}
+
+.footer__subjects-object:nth-child(2) {
+    padding-top: 25px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 25px;
+    justify-content: normal;
+    gap: 110px;
+}
+
+.footer__subjects-object:nth-child(3) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer__subjects-object:nth-child(3) .footer__subjects-object-text {
+    font-family: 'OpenSans Light';
+    font-size: 14px;
+}
+
+.footer__subjects-object-list a {
+    font-size: 14px;
+    font-family: 'OpenSans Light';
+    color: #fff;
+}
